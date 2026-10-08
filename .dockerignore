@@ -1,0 +1,27 @@
+.git
+.env
+.env.*
+!.env.example
+node_modules
+vendor
+public/build
+public/hot
+storage/app/firebase
+storage/firebase
+storage/logs/*
+database/database.sqlite*
+npm-debug.log
+# Sensitive files and local archives
+*.pem
+*.key
+*service-account*.json
+*.encrypted
+*.zip
+
+# Nested dependencies
+**/node_modules/
+**/vendor/
+
+# Local development files
+.idea/
+.vscode/

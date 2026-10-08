@@ -1,0 +1,101 @@
+{
+    "feed": {
+        "eyebrow": "المجتمع",
+        "title": "آخر المنشورات",
+        "new_post": "منشور جديد",
+        "search_placeholder": "ابحث في المنشورات…",
+        "search": "بحث",
+        "browse_tags": "تصفح الوسوم ←",
+        "empty_title": "لا يوجد شيء بعد",
+        "empty_message": "كن أول من يشارك أرشيف مشروع."
+    },
+    "show": {
+        "confirm_delete": "هل تريد حذف هذا المنشور؟ لا يمكن التراجع.",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "by": "بواسطة",
+        "posted_on": "نُشر في {{date}}",
+        "comments": "التعليقات",
+        "comments_count": "تعليقات",
+        "login_to_comment": "سجّل الدخول لإضافة تعليق"
+    },
+    "create": {
+        "title": "إنشاء منشور"
+    },
+    "edit": {
+        "title": "تعديل: {{title}}",
+        "existing_images": "الصور الحالية",
+        "add_more_images": "إضافة المزيد من الصور",
+        "keep": "إبقاء",
+        "remove": "إزالة"
+    },
+    "form": {
+        "title": "العنوان",
+        "description": "الوصف",
+        "location": "الموقع",
+        "event_date": "تاريخ الحدث",
+        "tags": "الوسوم",
+        "images": "الصور",
+        "publish_now": "نشر الآن",
+        "cancel": "إلغاء",
+        "create": "إنشاء المنشور",
+        "save": "حفظ التغييرات"
+    },
+    "tags": {
+        "eyebrow": "استكشف المواضيع",
+        "title": "الوسوم",
+        "empty": "لا توجد وسوم بعد.",
+        "all": "كل الوسوم"
+    },
+    "profile": {
+        "member_since": "عضو منذ {{date}}",
+        "empty_title": "لا توجد منشورات",
+        "empty_message": "لم يقم هذا المستخدم بنشر أي شيء بعد."
+    },
+    "card": {
+        "images": "{{count}} صور",
+        "image": "{{count}} صورة"
+    },
+    "uploader": {
+        "drop_prefix": "اسحب الصور وأفلتها هنا، أو",
+        "browse": "تصفح الملفات",
+        "format_hint": "JPG، PNG، WebP، HEIC · حتى {{count}} صور · 8 ميغابايت لكل صورة",
+        "caption_placeholder": "وصف الصورة (اختياري)",
+        "drop_here": "أفلت الصور هنا أو انقر للتصفح",
+        "max_hint": "حتى 10 صور، 8 ميغابايت لكل صورة. JPG, PNG, WEBP, HEIC.",
+        "label": "التسمية",
+        "caption": "تعليق",
+        "before": "قبل",
+        "after": "بعد",
+        "other": "أخرى",
+        "remove": "إزالة",
+        "move_up": "تحريك للأعلى",
+        "move_down": "تحريك للأسفل"
+    },
+    "gallery": {
+        "before_after": "قبل / بعد",
+        "all_images": "كل الصور",
+        "drag_to_compare": "اسحب للمقارنة"
+    },
+    "comments": {
+        "placeholder": "اكتب تعليقًا…",
+        "submit": "نشر التعليق",
+        "empty": "لا توجد تعليقات بعد.",
+        "delete": "حذف",
+        "confirm_delete": "هل تريد حذف هذا التعليق؟"
+    },
+    "like": {
+        "like": "إعجاب",
+        "liked": "مُعجب",
+        "count_one": "{{count}} إعجاب",
+        "count_other": "{{count}} إعجابات"
+    },
+    "report": {
+        "button": "إبلاغ",
+        "title": "إبلاغ عن هذا المنشور",
+        "description": "أخبر المشرفين بسبب الإبلاغ.",
+        "placeholder": "السبب (مثل سبام، تحرش، خارج عن الموضوع)",
+        "cancel": "إلغاء",
+        "submit": "إرسال البلاغ"
+    }
+}

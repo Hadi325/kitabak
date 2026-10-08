@@ -1,0 +1,275 @@
+{
+    "tabs": {
+        "dashboard": "لوحة التحكم",
+        "users": "المستخدمون",
+        "posts": "المنشورات",
+        "reports": "البلاغات",
+        "books": "الكتب",
+        "books_for_sale": "للبيع"
+   },
+
+    "dashboard": {
+        "title": "لوحة المشرف",
+        "eyebrow": "الإدارة",
+        "description": "إدارة المستخدمين والكتب ومحتوى السوق. حافظ على كتابك كمجتمع آمن وودّي وملهم للقرّاء.",
+        "recent_users": "أحدث المستخدمين",
+        "recent_users_description": "قائمة بأحدث المستخدمين المسجلين على كتابك.",
+        "view_users": "عرض المستخدمين"
+    },
+
+    "stats": {
+        "users": "المستخدمون",
+        "posts": "المنشورات",
+        "comments": "التعليقات",
+        "pending_reports": "بلاغات معلقة",
+        "books": "الكتب",
+        "books_for_sale": "الكتب المعروضة للبيع",
+        "new_this_week": "الجدد هذا الأسبوع",
+        "this_week": "هذا الأسبوع",
+        "new_users": "مستخدمون جدد",
+        "no_change": "لا تغيير",
+        "no_new_users": "لا يوجد مستخدمون جدد"
+    },
+
+    "common": {
+        "role_admin": "مشرف",
+        "role_user": "مستخدم",
+        "admin": "مشرف",
+        "user": "مستخدم",
+        "search": "بحث",
+        "actions": "إجراءات",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "empty": "لا توجد نتائج."
+    },
+
+    "users": {
+        "title": "المستخدمون",
+        "search_placeholder": "ابحث بالاسم أو البريد الإلكتروني…",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "active": "نشط",
+        "offline": "غير متصل",
+        "all_statuses": "كل الحالات",
+"active": "نشط",
+"offline": "غير متصل",
+        "description": "إدارة المستخدمين والمشرفين والحفاظ على مجتمع قراءة آمن وودّي وملهم.",
+        "more_actions": "المزيد من الإجراءات",
+        "promote_to_admin": "ترقية إلى مشرف",
+        "demote_to_user": "تحويل إلى مستخدم",
+        "status": "الحالة",
+        "all_roles": "جميع الأدوار",
+        "newest_first": "الأحدث أولاً",
+        "oldest_first": "الأقدم أولاً",
+        "add_user": "إضافة مستخدم",
+        "demote_to_user": "تحويل إلى مستخدم",
+        "roles": "الدور",
+        "posts": "المنشورات",
+        "joined": "تاريخ الانضمام",
+        "promote": "ترقية إلى مشرف",
+        "demote": "إزالة الإشراف",
+        "confirm_promote": "ترقية {{name}} إلى مشرف؟",
+        "confirm_demote": "إزالة دور المشرف من {{name}}؟",
+        "no_results": "لم يتم العثور على مستخدمين."
+    },
+
+    "posts": {
+        "title": "المنشورات",
+        "search_placeholder": "ابحث في المنشورات…",
+        "col_title": "العنوان",
+        "col_author": "الكاتب",
+        "col_status": "الحالة",
+        "col_date": "التاريخ",
+        "published": "منشور",
+        "draft": "مسودة",
+        "confirm_delete": "حذف \"{{title}}\"؟ هذا الإجراء نهائي."
+    },
+
+ "reports": {
+  "title": "البلاغات",
+  "description": "راجع بلاغات المستخدمين وتحقق من الإعلانات والحسابات المُبلّغ عنها للمساعدة في الحفاظ على مجتمع كتابك آمنًا.",
+  "empty": "لم يتم العثور على بلاغات.",
+  "reported_by": "تم الإبلاغ بواسطة",
+  "reported_listing": "الإعلان المُبلّغ عنه",
+  "reported_user": "المستخدم المُبلّغ عنه",
+  "reported_post": "المنشور المُبلّغ عنه",
+  "reason": "السبب",
+  "details": "تفاصيل إضافية",
+  "seller": "البائع",
+  "location": "الموقع",
+  "listing_status": "حالة الإعلان",
+  "unknown_book": "كتاب غير معروف",
+  "listing_deleted": "تم حذف الإعلان المُبلّغ عنه.",
+  "user_deleted": "تم حذف المستخدم المُبلّغ عنه.",
+  "post_deleted": "تم حذف المنشور الأصلي.",
+  "resolve": "حل البلاغ",
+  "dismiss": "رفض البلاغ",
+  "delete_post": "حذف المنشور",
+  "confirm_delete_post": "هل تريد حذف المنشور \"{{title}}\"؟",
+
+  "types": {
+    "listing": "إعلان",
+    "user": "مستخدم",
+    "post": "منشور"
+  },
+
+  "reasons": {
+    "fake_or_misleading": "إعلان مزيف أو مضلل",
+    "inappropriate_content": "محتوى غير لائق",
+    "wrong_information": "معلومات غير صحيحة عن الكتاب",
+    "scam_or_suspicious": "احتيال أو نشاط مشبوه",
+    "duplicate": "إعلان مكرر",
+    "inappropriate_behavior": "سلوك غير لائق",
+    "spam": "محتوى مزعج",
+    "impersonation": "انتحال شخصية",
+    "other": "سبب آخر"
+  },
+
+  "status": {
+    "pending": "قيد الانتظار",
+    "resolved": "تم الحل",
+    "dismissed": "مرفوض"
+  },
+
+  "stats": {
+    "pending": "قيد الانتظار",
+    "pending_note": "بحاجة إلى مراجعة",
+    "resolved": "تم حلها",
+    "resolved_note": "تمت مراجعتها وحلها",
+    "dismissed": "مرفوضة",
+    "dismissed_note": "لا تحتاج إلى إجراء",
+    "total": "إجمالي البلاغات",
+    "total_note": "منذ البداية"
+  },
+
+  "filters": {
+    "title": "الفلاتر",
+    "search_placeholder": "البحث في البلاغات...",
+    "all_statuses": "جميع الحالات",
+    "all_types": "جميع الأنواع",
+    "all_reasons": "جميع الأسباب",
+    "apply": "تطبيق الفلاتر",
+    "newest": "الأحدث أولاً",
+    "oldest": "الأقدم أولاً",
+    "clear": "مسح الفلاتر"
+  }
+},
+
+    "listings": {
+        "page_title": "الكتب المعروضة للبيع",
+        "section_title": "الكتب المعروضة للبيع حالياً",
+        "search_placeholder": "ابحث في الكتب المعروضة للبيع...",
+        "search_action": "بحث",
+        "empty_title": "لا توجد كتب معروضة للبيع",
+        "empty_text": "لم يتم العثور على إعلانات متاحة.",
+        "unknown_book": "كتاب غير معروف",
+        "unknown_author": "مؤلف غير معروف",
+        "delete": "حذف الإعلان",
+        "confirm_delete": "هل أنت متأكد من حذف \"{{title}}\" من البيع؟",
+        "photos": "{{count}} صور"
+    },
+
+    "marketplace": {
+        "description": "راجع إعلانات السوق للحفاظ على أمان كتابك وموثوقيته وفائدته لكل قارئ.",
+        "active_listings": "الإعلانات النشطة",
+        "available_now": "متاحة الآن",
+        "new_this_week": "جديدة هذا الأسبوع",
+        "filters": "الفلاتر",
+"clear": "مسح",
+"clear_filters": "مسح الفلاتر",
+"apply_filters": "تطبيق الفلاتر",
+        "fresh_listings": "إعلانات جديدة",
+        "sold_this_week": "بيعت هذا الأسبوع",
+        "completed_sales": "عمليات بيع مكتملة",
+        "total_listings": "إجمالي الإعلانات",
+        "all_time": "منذ البداية",
+        "search_placeholder": "ابحث بالعنوان أو البائع أو ISBN أو الموقع...",
+        "filter": "تصفية",
+        "status": "الحالة",
+        "all_statuses": "جميع الحالات",
+        "available": "متاح",
+        "sold": "مباع",
+        "reserved": "محجوز",
+        "location": "الموقع",
+        "all_locations": "جميع المواقع",
+        "price": "السعر",
+        "all_prices": "جميع الأسعار",
+        "under_10": "أقل من 10$",
+        "between_10_25": "من 10$ إلى 25$",
+        "over_25": "أكثر من 25$",
+        "sort": "الترتيب",
+        "newest_first": "الأحدث أولاً",
+        "oldest_first": "الأقدم أولاً",
+        "price_low": "السعر: من الأقل إلى الأعلى",
+        "price_high": "السعر: من الأعلى إلى الأقل",
+        "book": "الكتاب",
+        "seller": "البائع",
+        "listed_on": "تاريخ الإعلان",
+        "unknown_seller": "بائع غير معروف",
+        "view": "عرض",
+        "view_details": "عرض التفاصيل",
+        "remove_listing": "إزالة الإعلان؟",
+        "cancel": "إلغاء",
+        "remove": "إزالة",
+        "pagination": "التنقل بين الصفحات"
+    },
+    "books": {
+    "title": "الكتب","category": "الفئة",
+"all_categories": "جميع الفئات",
+"category_school": "مدرسي",
+"category_university": "جامعي",
+"category_novel": "رواية",
+    "description": "إدارة فهرس الكتب المشترك. أضف كتب كِتابك وعدّلها ونظّمها وحافظ على تحديث الفهرس لجميع المستخدمين.",
+
+    "total_books": "إجمالي الكتب",
+    "books_in_catalog": "{{count}} كتابًا في الفهرس",
+    "grades": "الصفوف",
+    "grades_represented": "الصفوف المتوفرة",
+    "languages": "اللغات",
+    "no_language_data": "لا توجد بيانات للغات",
+    "new_this_week": "الجديد هذا الأسبوع",
+    "books_added": "تمت إضافة {{count}} كتاب",
+
+    "search_placeholder": "البحث عن الكتب...",
+    "grade": "الصف",
+    "language": "اللغة",
+    "sort": "الترتيب",
+    "all_grades": "جميع الصفوف",
+    "all_languages": "جميع اللغات",
+    "newest_first": "الأحدث أولاً",
+    "oldest_first": "الأقدم أولاً",
+    "title_az": "العنوان أ–ي",
+
+    "filters": "الفلاتر",
+    "clear_filters": "مسح الفلاتر",
+    "apply_filters": "تطبيق الفلاتر",
+
+    "unknown_author": "مؤلف غير معروف",
+    "grade_value": "الصف: {{grade}}",
+
+    "view": "عرض",
+    "edit": "تعديل",
+    "edit_metadata": "تعديل المعلومات",
+    "close": "إغلاق",
+
+    "language_arabic": "العربية",
+    "language_english": "الإنجليزية",
+    "language_french": "الفرنسية"
+},
+
+    "add_book": {
+        "add_new_book": "إضافة كتاب جديد",
+        "title": "العنوان",
+        "subject": "الموضوع",
+        "grade": "الصف الدراسي",
+        "price": "السعر ($)",
+        "stock_quantity": "كمية المخزون",
+        "add_book_btn": "إضافة كتاب",
+        "saving": "جاري الحفظ...",
+        "book_added_success": "تم إضافة الكتاب بنجاح!",
+        "book_added_failed": "فشل في إضافة الكتاب. يرجى التحقق من الأخطاء.",
+        "images_label": "صور الكتاب (يمكنك اختيار عدة صور)",
+        "choose_files": "اختر الملفات",
+        "no_file_chosen": "لم يتم اختيار ملف"
+    }
+}

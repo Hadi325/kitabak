@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>School Book List - EB1 - Mixed Catalog Test</title>
+    <style>
+        @page { size: A4; margin: 16mm; }
+        * { box-sizing: border-box; }
+        body { margin: 0; color: #172033; font-family: Arial, "Noto Sans Arabic", sans-serif; background: white; }
+        header { display: flex; align-items: center; justify-content: space-between; padding-bottom: 18px; border-bottom: 3px solid #4f46e5; }
+        .brand { font-size: 24px; font-weight: 900; color: #312e81; }
+        .brand span { color: #6366f1; }
+        .meta { text-align: right; font-size: 12px; line-height: 1.6; color: #475569; }
+        h1 { margin: 28px 0 6px; font-size: 28px; color: #0f172a; }
+        .subtitle { margin: 0 0 22px; color: #64748b; font-size: 13px; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th { padding: 12px; color: white; background: #312e81; text-align: left; }
+        th:first-child { width: 22%; }
+        td { padding: 12px; border: 1px solid #cbd5e1; vertical-align: top; }
+        td:first-child { background: #eef2ff; color: #3730a3; font-weight: 800; }
+        ul { margin: 0; padding-left: 18px; }
+        li { margin: 0 0 8px; line-height: 1.45; }
+        li:last-child { margin-bottom: 0; }
+        .arabic { direction: rtl; text-align: right; font-family: Arial, "Noto Sans Arabic", sans-serif; }
+        footer { margin-top: 22px; padding: 14px 16px; border-radius: 10px; background: #f1f5f9; color: #475569; font-size: 11px; line-height: 1.55; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand">my<span>Books</span> Academy</div>
+        <div class="meta"><strong>School year:</strong> 2026-2027<br><strong>Classe:</strong> EB 1</div>
+    </header>
+
+    <h1>Required Book List</h1>
+    <p class="subtitle">Document prepared to test catalog matching and availability reporting.</p>
+
+    <table>
+        <thead><tr><th>Subject</th><th>Required books</th></tr></thead>
+        <tbody>
+            <tr><td>French</td><td><ul>
+                <li>Le voyage des mots - CRDP - Marcelle Abinader Khorassandjian - Edition 2002</li>
+                <li>Le voyage des mots (Livret d'exercices) - CRDP - Edition 2002</li>
+            </ul></td></tr>
+            <tr><td>Maths</td><td><ul>
+                <li>Constuire les Mathematiques - CRDP - Victor Melhem - Edition 2002</li>
+                <li>Building up mathematics - CERD - Victor Melhem - Edition 1998</li>
+                <li>The Secret Garden of Numbers - Aurora Education - Edition 2024</li>
+            </ul></td></tr>
+            <tr><td>Sciences</td><td><ul>
+                <li>Mon 1er livre de sciences - CRDP - Moustapha Yaghi - Edition 2002</li>
+                <li>My 1st science book - CRDP - Moustapha Yaghi</li>
+                <li>Ocean Explorers Activity Book - Blue Horizon Press - Edition 2025</li>
+            </ul></td></tr>
+            <tr><td>English</td><td><ul>
+                <li>Let's learn together part1 - CRDP - Assaad Eid - Edition 1998</li>
+                <li>Galactic Coding Adventures - Orion Learning - Edition 2026</li>
+            </ul></td></tr>
+            <tr><td>Arabic</td><td><ul>
+                <li class="arabic">القراءة العربية - المركز التربوي للبحوث والإنماء - طبعة 2018</li>
+            </ul></td></tr>
+        </tbody>
+    </table>
+
+    <footer><strong>Note:</strong> Students may choose any available seller copy matching the requested title and edition. Used books must be complete and in good condition.</footer>
+</body>
+</html>

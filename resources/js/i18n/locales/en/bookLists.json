@@ -1,0 +1,84 @@
+{
+  "nav": "School list",
+  "eyebrow": "Smart list matching",
+  "title": "Find every book on your school list",
+  "description": "Upload a PDF, DOCX, photo, or text file. We extract the required titles, compare them with the catalog, explain missing books, and show available seller options by price.",
+  "upload": {
+    "title": "Drop your school list here or choose a file",
+    "help": "Clear, straight photos and original PDF or DOCX files produce the best results.",
+    "change": "Click to replace this document",
+    "privacy": "Your document is sent securely to OpenAI only when you press Analyze. It is used to identify the books in this list.",
+    "action": "Analyze my list"
+  },
+  "camera": {
+    "or": "or",
+    "action": "Take a photo",
+    "title": "Photograph your school list",
+    "description": "Place the full page inside the frame, keep it flat, and use good lighting for accurate text recognition.",
+    "starting": "Starting camera…",
+    "capture": "Take photo",
+    "capturing": "Saving photo…",
+    "crop_title": "Crop your school-list photo",
+    "crop_description": "Remove the table, floor, shadows, and other background so AI can focus on the document.",
+    "crop_help": "Drag across the photo to select the document area.",
+    "crop_preview": "School-list crop preview",
+    "use_full": "Use full photo",
+    "crop_use": "Crop and use",
+    "cropping": "Cropping…",
+    "crop_error": "The selected area could not be cropped. Please draw the crop again and retry.",
+    "close": "Close",
+    "permission_denied": "Camera permission was denied. Allow camera access in your browser settings and try again.",
+    "unavailable": "No usable camera was found on this device.",
+    "secure_context": "Camera access requires HTTPS or localhost.",
+    "error": "The camera could not be started. Close other apps using it and try again.",
+    "capture_error": "The photo could not be captured. Please try again."
+  },
+  "processing": {
+    "preparing": "Preparing document…",
+    "pdf": "Reading PDF page {{current}} of {{total}}…",
+    "docx": "Reading Word document…",
+    "ocr": "Analyzing Arabic, English, and French content with AI…",
+    "extracting": "Preparing document for AI…",
+    "matching": "Matching books and prices…"
+  },
+  "summary": { "total": "Required", "available": "Available", "possible": "Check", "unavailable": "No copies", "not_found": "Not found" },
+  "filters": { "all": "All books", "available": "Available", "possible": "Needs review", "unavailable": "No available copy", "not_found": "Not in catalog" },
+  "status": { "available": "Available", "possible": "Confirm match", "unavailable": "Unavailable", "not_found": "Not found" },
+  "results": {
+    "unknown_subject": "Subject not detected",
+    "unknown_grade": "Class not detected",
+    "match": "match",
+    "options": "{{count}} available option",
+    "options_other": "{{count}} available options",
+    "location_unknown": "Location not specified",
+    "empty_filter": "No books are present in this category."
+  },
+  "reasons": {
+    "no_catalog_match_title": "This title is not in the catalog",
+    "no_catalog_match": "We found no sufficiently close book. Check the extracted title or ask an administrator to add it.",
+    "no_available_copy": "The book is known, but there is currently no available seller copy."
+  },
+  "selection": {
+    "eyebrow": "Your choices",
+    "title": "Selected books",
+    "empty": "Choose a seller option under each matching book. The lowest prices are shown first.",
+    "seller": "Book seller",
+    "total": "Estimated total",
+    "notice": "Selection does not reserve a copy yet. Ordering and reservation can be connected as the next workflow."
+  },
+  "review": {
+    "title": "Review extracted document text",
+    "help": "Review the AI transcription here, correct any mistake, then run matching again.",
+    "rerun": "Match corrected text"
+  },
+  "new_analysis": "Analyze another list",
+  "errors": {
+    "file_too_large": "The file is larger than 15 MB.",
+    "pdf_page_limit": "PDF files are limited to 10 pages per AI analysis.",
+    "unsupported_file": "This file type is not supported. Use PDF, DOCX, TXT, JPG, PNG, or WEBP.",
+    "empty_document": "No readable text was found. Try a clearer photo or a higher-quality document.",
+    "parser_unavailable": "The document reader could not load. Check your internet connection and try again.",
+    "server_error": "The document was read, but catalog matching failed. Please try again.",
+    "unknown_error": "We could not read this document. Please try another file."
+  }
+}

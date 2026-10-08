@@ -1,0 +1,15 @@
+{
+    "feed": { "eyebrow": "Communauté", "title": "Fil d'actualité", "new_post": "Nouvelle publication", "search_placeholder": "Rechercher des publications…", "search": "Rechercher", "browse_tags": "Parcourir les tags →", "empty_title": "Rien ici pour le moment", "empty_message": "Soyez le premier à partager un projet." },
+    "show": { "confirm_delete": "Supprimer cette publication ? Cette action est irréversible.", "edit": "Modifier", "delete": "Supprimer", "by": "par", "posted_on": "publié le {{date}}", "comments": "Commentaires", "comments_count": "commentaires", "login_to_comment": "Connectez-vous pour commenter" },
+    "create": { "title": "Créer une publication" },
+    "edit": { "title": "Modifier : {{title}}", "existing_images": "Images existantes", "add_more_images": "Ajouter des images", "keep": "Conserver", "remove": "Retirer" },
+    "form": { "title": "Titre", "description": "Description", "location": "Lieu", "event_date": "Date de l'événement", "tags": "Tags", "images": "Images", "publish_now": "Publier maintenant", "cancel": "Annuler", "create": "Créer la publication", "save": "Enregistrer les modifications" },
+    "tags": { "eyebrow": "Explorer les sujets", "title": "Tags", "empty": "Aucun tag pour le moment.", "all": "Tous les tags" },
+    "profile": { "member_since": "Membre depuis {{date}}", "empty_title": "Aucune publication", "empty_message": "Cet utilisateur n'a encore rien publié." },
+    "card": { "images": "{{count}} images", "image": "{{count}} image" },
+    "uploader": { "drop_prefix": "Glissez-déposez vos images ici, ou", "browse": "parcourez", "format_hint": "JPG, PNG, WebP, HEIC · jusqu'à {{count}} images · 8 Mo chacune", "caption_placeholder": "Légende (facultatif)", "drop_here": "Déposez les images ici ou cliquez pour parcourir", "max_hint": "Jusqu'à 10 images, 8 Mo chacune. JPG, PNG, WEBP, HEIC.", "label": "Étiquette", "caption": "Légende", "before": "Avant", "after": "Après", "other": "Autre", "remove": "Retirer", "move_up": "Monter", "move_down": "Descendre" },
+    "gallery": { "before_after": "Avant / après", "all_images": "Toutes les images", "drag_to_compare": "Faites glisser pour comparer" },
+    "comments": { "placeholder": "Écrire un commentaire…", "submit": "Publier le commentaire", "empty": "Aucun commentaire pour le moment.", "delete": "Supprimer", "confirm_delete": "Supprimer ce commentaire ?" },
+    "like": { "like": "J'aime", "liked": "Aimé", "count_one": "{{count}} j'aime", "count_other": "{{count}} j'aime" },
+    "report": { "button": "Signaler", "title": "Signaler cette publication", "description": "Indiquez ce qui ne va pas avec cette publication.", "placeholder": "Raison (ex. spam, harcèlement, hors sujet)", "cancel": "Annuler", "submit": "Envoyer le signalement" }
+}

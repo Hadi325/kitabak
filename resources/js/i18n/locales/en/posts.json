@@ -1,0 +1,101 @@
+{
+    "feed": {
+        "eyebrow": "Community",
+        "title": "Feed",
+        "new_post": "New post",
+        "search_placeholder": "Search posts…",
+        "search": "Search",
+        "browse_tags": "Browse tags →",
+        "empty_title": "Nothing here yet",
+        "empty_message": "Be the first to share a project archive."
+    },
+    "show": {
+        "confirm_delete": "Delete this post? This cannot be undone.",
+        "edit": "Edit",
+        "delete": "Delete",
+        "by": "by",
+        "posted_on": "posted {{date}}",
+        "comments": "Comments",
+        "comments_count": "comments",
+        "login_to_comment": "Log in to leave a comment"
+    },
+    "create": {
+        "title": "Create a post"
+    },
+    "edit": {
+        "title": "Edit: {{title}}",
+        "existing_images": "Existing images",
+        "add_more_images": "Add more images",
+        "keep": "Keep",
+        "remove": "Remove"
+    },
+    "form": {
+        "title": "Title",
+        "description": "Description",
+        "location": "Location",
+        "event_date": "Event date",
+        "tags": "Tags",
+        "images": "Images",
+        "publish_now": "Publish now",
+        "cancel": "Cancel",
+        "create": "Create post",
+        "save": "Save changes"
+    },
+    "tags": {
+        "eyebrow": "Explore topics",
+        "title": "Tags",
+        "empty": "No tags yet.",
+        "all": "All tags"
+    },
+    "profile": {
+        "member_since": "Member since {{date}}",
+        "empty_title": "No posts yet",
+        "empty_message": "This user hasn't published any posts."
+    },
+    "card": {
+        "images": "{{count}} images",
+        "image": "{{count}} image"
+    },
+    "uploader": {
+        "drop_prefix": "Drag and drop images here, or",
+        "browse": "browse",
+        "format_hint": "JPG, PNG, WebP, HEIC · up to {{count}} images · 8 MB each",
+        "caption_placeholder": "Caption (optional)",
+        "drop_here": "Drop images here or click to browse",
+        "max_hint": "Up to 10 images, 8 MB each. JPG, PNG, WEBP, HEIC.",
+        "label": "Label",
+        "caption": "Caption",
+        "before": "Before",
+        "after": "After",
+        "other": "Other",
+        "remove": "Remove",
+        "move_up": "Move up",
+        "move_down": "Move down"
+    },
+    "gallery": {
+        "before_after": "Before / after",
+        "all_images": "All images",
+        "drag_to_compare": "Drag to compare"
+    },
+    "comments": {
+        "placeholder": "Write a comment…",
+        "submit": "Post comment",
+        "empty": "No comments yet.",
+        "delete": "Delete",
+        "confirm_delete": "Delete this comment?"
+    },
+    "like": {
+        "like": "Like",
+        "liked": "Liked",
+        "count_one": "{{count}} like",
+        "count_other": "{{count}} likes"
+    },
+    "report": {
+        "button": "Report",
+        "title": "Report this post",
+        "description": "Tell the moderators what's wrong with this post.",
+        "placeholder": "Reason (e.g. spam, harassment, off-topic)",
+        "cancel": "Cancel",
+        "submit": "Send report"
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "tabs": {
+        "dashboard": "Tableau de bord",
+        "users": "Utilisateurs",
+        "posts": "Publications",
+        "reports": "Signalements",
+        "books": "Livres",
+        "books_for_sale": "À vendre"
+    },
+
+    "dashboard": {
+        "title": "Administration",
+        "eyebrow": "Administration",
+        "description": "Gérez les utilisateurs, les livres et le contenu de la marketplace. Gardez Kitabak sûr, convivial et inspirant pour la communauté des lecteurs.",
+        "recent_users": "Utilisateurs récents",
+        "recent_users_description": "Liste des utilisateurs les plus récemment inscrits sur Kitabak.",
+        "view_users": "Voir les utilisateurs"
+    },
+
+    "stats": {
+        "users": "Utilisateurs",
+        "posts": "Publications",
+        "comments": "Commentaires",
+        "pending_reports": "Signalements en attente",
+        "books": "Livres",
+        "books_for_sale": "Livres à vendre",
+        "new_this_week": "Nouveaux cette semaine",
+        "this_week": "cette semaine",
+        "new_users": "nouveaux utilisateurs",
+        "no_change": "Aucun changement",
+        "no_new_users": "Aucun nouvel utilisateur"
+    },
+
+    "common": {
+        "role_admin": "Administrateur",
+        "role_user": "Utilisateur",
+        "admin": "Administrateur",
+        "user": "Utilisateur",
+        "search": "Rechercher",
+        "actions": "Actions",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "empty": "Aucun résultat."
+    },
+
+    "users": {
+        "title": "Utilisateurs",
+        "search_placeholder": "Rechercher par nom ou e-mail…",
+        "name": "Nom",
+        "all_statuses": "Tous les statuts",
+"active": "Actif",
+"offline": "Hors ligne",
+        "email": "E-mail",
+        "all_roles": "Tous les rôles",
+        "newest_first": "Plus récents",
+        "active": "Actif",
+        "offline": "Hors ligne",
+        "more_actions": "Plus d’actions",
+        "promote_to_admin": "Promouvoir administrateur",
+        "demote_to_user": "Rétrograder en utilisateur",
+        "status": "Statut",
+        "description": "Gérez les lecteurs et les administrateurs. Modifiez les rôles et gardez votre communauté de lecture sûre et active.",
+        "oldest_first": "Plus anciens",
+        "add_user": "Ajouter un utilisateur",
+        "demote_to_user": "Rétrograder en utilisateur",
+        "roles": "Rôle",
+        "posts": "Publications",
+        "joined": "Inscrit le",
+        "promote": "Promouvoir administrateur",
+        "demote": "Rétrograder",
+        "confirm_promote": "Promouvoir {{name}} administrateur ?",
+        "confirm_demote": "Retirer les droits administrateur de {{name}} ?",
+        "no_results": "Aucun utilisateur trouvé."
+    },
+
+    "posts": {
+        "title": "Publications",
+        "search_placeholder": "Rechercher des publications…",
+        "col_title": "Titre",
+        "col_author": "Auteur",
+        "col_status": "Statut",
+        "col_date": "Créée le",
+        "published": "Publiée",
+        "draft": "Brouillon",
+        "confirm_delete": "Supprimer « {{title}} » ? Cette action est définitive."
+    },
+
+   "reports": {
+  "title": "Signalements",
+  "description": "Examinez les signalements des utilisateurs, vérifiez les annonces et les comptes signalés et contribuez à la sécurité de la communauté Kitabak.",
+  "empty": "Aucun signalement trouvé.",
+  "reported_by": "Signalé par",
+  "reported_listing": "Annonce signalée",
+  "reported_user": "Utilisateur signalé",
+  "reported_post": "Publication signalée",
+  "reason": "Raison",
+  "details": "Détails supplémentaires",
+  "seller": "Vendeur",
+  "location": "Lieu",
+  "listing_status": "Statut de l'annonce",
+  "unknown_book": "Livre inconnu",
+  "listing_deleted": "L'annonce signalée a été supprimée.",
+  "user_deleted": "L'utilisateur signalé a été supprimé.",
+  "post_deleted": "La publication originale a été supprimée.",
+  "resolve": "Résoudre",
+  "dismiss": "Rejeter",
+  "delete_post": "Supprimer la publication",
+  "confirm_delete_post": "Supprimer la publication \"{{title}}\" ?",
+
+  "types": {
+    "listing": "Annonce",
+    "user": "Utilisateur",
+    "post": "Publication"
+  },
+
+  "reasons": {
+    "fake_or_misleading": "Annonce fausse ou trompeuse",
+    "inappropriate_content": "Contenu inapproprié",
+    "wrong_information": "Informations incorrectes sur le livre",
+    "scam_or_suspicious": "Arnaque ou activité suspecte",
+    "duplicate": "Annonce en double",
+    "inappropriate_behavior": "Comportement inapproprié",
+    "spam": "Spam",
+    "impersonation": "Usurpation d'identité",
+    "other": "Autre"
+  },
+
+  "status": {
+    "pending": "En attente",
+    "resolved": "Résolu",
+    "dismissed": "Rejeté"
+  },
+
+  "stats": {
+    "pending": "En attente",
+    "pending_note": "À examiner",
+    "resolved": "Résolus",
+    "resolved_note": "Examinés et résolus",
+    "dismissed": "Rejetés",
+    "dismissed_note": "Aucune action requise",
+    "total": "Total des signalements",
+    "total_note": "Depuis le début"
+  },
+
+  "filters": {
+    "title": "Filtres",
+    "search_placeholder": "Rechercher des signalements...",
+    "all_statuses": "Tous les statuts",
+    "all_types": "Tous les types",
+    "all_reasons": "Toutes les raisons",
+    "apply": "Appliquer les filtres",
+    "newest": "Plus récents",
+    "oldest": "Plus anciens",
+    "clear": "Effacer les filtres"
+  }
+},
+    "listings": {
+        "page_title": "Livres à vendre",
+        "section_title": "Livres actuellement à vendre",
+        "search_placeholder": "Rechercher des livres à vendre...",
+        "search_action": "Rechercher",
+        "empty_title": "Aucun livre à vendre",
+        "empty_text": "Aucune annonce disponible n'a été trouvée.",
+        "unknown_book": "Livre inconnu",
+        "unknown_author": "Auteur inconnu",
+        "delete": "Supprimer l'annonce",
+        "confirm_delete": "Voulez-vous vraiment retirer « {{title}} » de la vente ?",
+        "photos": "{{count}} photos"
+    },
+
+    "marketplace": {
+    "description": "Modérez les annonces pour garder la marketplace Kitabak sûre, fiable et utile à chaque lecteur.",
+    "active_listings": "Annonces actives",
+    "available_now": "Disponibles maintenant",
+    "filters": "Filtres",
+"clear": "Effacer",
+"clear_filters": "Effacer les filtres",
+"apply_filters": "Appliquer les filtres",
+    "new_this_week": "Nouvelles cette semaine",
+    "fresh_listings": "Nouvelles annonces",
+    "sold_this_week": "Vendues cette semaine",
+    "completed_sales": "Ventes terminées",
+    "total_listings": "Total des annonces",
+    "all_time": "Depuis le début",
+    "search_placeholder": "Rechercher par titre, vendeur, ISBN ou lieu...",
+    "filter": "Filtrer",
+    "status": "Statut",
+    "all_statuses": "Tous les statuts",
+    "available": "Disponible",
+    "sold": "Vendu",
+    "reserved": "Réservé",
+    "location": "Lieu",
+    "all_locations": "Tous les lieux",
+    "price": "Prix",
+    "all_prices": "Tous les prix",
+    "under_10": "Moins de 10 $",
+    "between_10_25": "10 $ – 25 $",
+    "over_25": "Plus de 25 $",
+    "sort": "Trier",
+    "newest_first": "Plus récentes",
+    "oldest_first": "Plus anciennes",
+    "price_low": "Prix : croissant",
+    "price_high": "Prix : décroissant",
+    "apply_filters": "Appliquer les filtres",
+    "clear_filters": "Effacer les filtres",
+    "book": "Livre",
+    "seller": "Vendeur",
+    "listed_on": "Publié le",
+    "unknown_seller": "Vendeur inconnu",
+    "view": "Voir",
+    "view_details": "Voir les détails",
+    "remove_listing": "Retirer l’annonce ?",
+    "cancel": "Annuler",
+    "remove": "Retirer",
+    "pagination": "Pagination"
+},
+
+"books": {
+    "title": "Livres",
+    "description": "Gérez le catalogue partagé. Ajoutez, modifiez et organisez les livres de Kitabak afin de maintenir le catalogue à jour pour tous les utilisateurs.",
+
+    "total_books": "Total des livres",
+    "category": "Catégorie",
+"all_categories": "Toutes les catégories",
+"category_school": "Scolaire",
+"category_university": "Universitaire",
+"category_novel": "Roman",
+    "books_in_catalog": "{{count}} livres dans le catalogue",
+    "grades": "Classes",
+    "grades_represented": "Classes représentées",
+    "languages": "Langues",
+    "no_language_data": "Aucune donnée de langue",
+    "new_this_week": "Nouveaux cette semaine",
+    "books_added": "{{count}} livres ajoutés",
+
+    "search_placeholder": "Rechercher des livres...",
+    "grade": "Classe",
+    "language": "Langue",
+    "sort": "Trier",
+    "all_grades": "Toutes les classes",
+    "all_languages": "Toutes les langues",
+    "newest_first": "Plus récents",
+    "oldest_first": "Plus anciens",
+    "title_az": "Titre A–Z",
+
+    "filters": "Filtres",
+    "clear_filters": "Effacer les filtres",
+    "apply_filters": "Appliquer les filtres",
+
+    "unknown_author": "Auteur inconnu",
+    "grade_value": "Classe : {{grade}}",
+
+    "view": "Voir",
+    "edit": "Modifier",
+    "edit_metadata": "Modifier ",
+    "close": "Fermer",
+
+    "language_arabic": "Arabe",
+    "language_english": "Anglais",
+    "language_french": "Français"
+},
+    "add_book": {
+        "add_new_book": "Ajouter un livre",
+        "title": "Titre",
+        "subject": "Matière",
+        "grade": "Classe",
+        "price": "Prix ($)",
+        "stock_quantity": "Quantité en stock",
+        "add_book_btn": "Ajouter le livre",
+        "saving": "Enregistrement...",
+        "book_added_success": "Livre ajouté avec succès !",
+        "book_added_failed": "Échec de l'ajout. Vérifiez les erreurs.",
+        "images_label": "Images du livre (sélection multiple)",
+        "choose_files": "Choisir des fichiers",
+        "no_file_chosen": "Aucun fichier choisi"
+    }
+}

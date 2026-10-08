@@ -1,0 +1,22 @@
+EXPECTED RESULTS FOR school-list-eb1-mixed.pdf
+
+Present in the local books catalog (8):
+- Le voyage des mots
+- Le voyage des mots (Livret d'exercices)
+- Constuire les Mathematiques
+- Building up mathematics
+- Mon 1er livre de sciences
+- My 1st science book
+- Let's learn together part1
+- القراءة العربية
+
+Not present in the local books catalog (3 intentionally invented titles):
+- The Secret Garden of Numbers
+- Ocean Explorers Activity Book
+- Galactic Coding Adventures
+
+Availability expectation:
+The current local database has zero available Listing records for these catalog books.
+Only books currently listed for sale belong in "Books found". Therefore, all
+11 titles should appear in "Books not found" until sellers create available
+listings. Each missing title can be used to test the availability-alert bell.

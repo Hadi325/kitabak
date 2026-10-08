@@ -1,0 +1,160 @@
+{
+    "home": { "header": "Home" },
+    "store": {
+        "eyebrow": "Your bookstore, simplified",
+        "title": "Find your next book, {{name}}",
+        "description": "Search the complete catalog, scan an ISBN, and compare available copies without wasting time.",
+        "catalog_count": "{{count}} catalog books",
+        "available_count": "{{count}} available copies",
+        "subject_count": "{{count}} subjects"
+    },
+
+    "filters": {
+    "category": "Category",
+    "all_categories": "All categories",
+    "school": "School",
+    "university": "University",
+    "novel": "Novel",
+
+    "price": "Price",
+    "all_prices": "All prices",
+    "under_5": "Under $5",
+    "price_5_10": "$5 – $10",
+    "price_10_20": "$10 – $20",
+    "price_20_50": "$20 – $50",
+    "over_50": "Over $50",
+    "clear": "Clear filters",
+
+    "location": "Location",
+    "all_locations": "All locations"
+},
+    "search": {
+        "label": "Search the book catalog",
+        "placeholder": "Search by title, author, subject",
+        "action": "Search",
+        "results_eyebrow": "Catalog results",
+        "results_title": "Results for “{{query}}”",
+        "results_count": "{{count}} found",
+        "loading": "Searching your catalog…",
+        "empty": "No matching books were found. Try another title, author, subject, or ISBN.",
+        "error": "We could not complete the search. Please try again.",
+        "load_more": "Load more books",
+        "loading_more": "Loading more…"
+    },
+    "scan": {
+        "eyebrow": "Quick ISBN lookup",
+        "title": "Scan and find the exact edition",
+        "hint": "Camera or barcode image",
+        "loading": "Searching the catalog for ISBN {{isbn}}…",
+        "found": "Exact catalog match",
+        "not_found": "No catalog book uses ISBN {{isbn}} yet. You can add this edition from the Add Book page.",
+        "error": "We could not search this ISBN. Please try again."
+    },
+    "hero": {
+        "eyebrow": "Your learning library",
+        "greeting": "Welcome back, {{name}}",
+        "description": "Find the right school books, keep track of your listings, and help useful resources reach more students.",
+        "collection": "Books in the collection",
+        "tip": "A well-organized library makes every book easier to discover. Add clear titles, grades, subjects, and cover photos."
+    },
+    "overview": { "eyebrow": "At a glance", "title": "Your library overview" },
+    "stats": {
+        "total_books": "Total books",
+        "my_books": "My books",
+        "available_copies": "Available copies",
+        "subjects": "Subjects"
+    },
+    "recent": {
+        "eyebrow": "Fresh on the shelf",
+        "title": "Recently added books",
+        "description": "The latest resources shared with the community."
+    },
+    "book": { "in_stock": "{{count}} in stock","photos": "photos","left": "left", "out_of_stock": "Out of stock", "unknown_author": "Author not specified" },
+    "subjects": {
+        "eyebrow": "Explore",
+        "title": "Browse popular subjects",
+        "empty": "Subjects will appear here when books are added."
+    },
+    "cta": {
+        "title": "Have a book to share?",
+        "description": "Add it to your collection with its subject, grade, price, stock, and cover images."
+    },
+    "empty": {
+        "title": "Your library is ready",
+        "description": "No books have been added yet. Start the collection by publishing the first one."
+    },
+    "school_list": {
+    "login_to_scan": "Click to sign in and scan your school list",
+    "login": "Sign in",
+    "title": "Take a photo of your school list",
+    "description": "Add every page so we can find all your books.",
+    "add_photo": "Add school list",
+    "add_another_page": "Add another page",
+    "page": "Page {{number}}",
+    "search": "Search my list",
+    "analyzing": "Analyzing...",
+    "analysis_lock_title": "Analyzing your school list",
+    "analysis_lock_description": "Please wait. You can continue when the analysis is complete.",
+    "no_content": "No readable content was found in your school list.",
+    "no_matches": "The list was analyzed, but no matching books were found.",
+    "analysis_error": "Your school list could not be analyzed.",
+    "menu_title": "Add school-list page",
+    "view_last": "View last photo",
+    "take_photo": "Take photo",
+    "gallery": "Choose from gallery",
+    "upload": "Upload file",
+    "cancel": "Cancel"
+},
+"sell_book": {
+    "title": "Have a book to share?",
+    "guest_description": "Add your book to the catalog. Sign in or create an account before selling it.",
+    "user_description": "Add your book with its subject, grade, price, stock, and cover images.",
+    "button": "Sell your book",
+    "login_to_sell": "Click to sign in and sell your book",
+    "login": "Sign in"
+},
+"book_alerts": {
+    "notify_one": "Notify me when {{title}} is available",
+    "notify_all": "Alert me for all",
+    "notify_search": "Notify me",
+    "part": "Part {{part}}",
+    "edit_book": "Edit book information",
+"edit_book_aria": "Edit {{title}}",
+"school_list": "School list",
+"edit_description": "Correct the information before creating an alert.",
+"edit_title": "Title",
+"edit_subject": "Subject",
+"edit_book_type": "Book type",
+"edit_part": "Part / Volume",
+"edit_grade": "Grade",
+"edit_isbn": "ISBN",
+"edit_cancel": "Cancel",
+"edit_save": "Save changes",
+"edit_title_required": "Title is required.",
+"edit_success": "Book information updated successfully.",
+    "success_one": "Alert enabled. We will notify you when this book is listed for sale.",
+    "success_many": "Alerts enabled for {{count}} books.",
+    "error": "The alert could not be enabled. Please try again.",
+    "login_title": "Sign in to receive book alerts",
+    "login_description": "Sign in or create an account and we will notify you by email or WhatsApp when this book is listed for sale.",
+    "login": "Sign in",
+    "register": "Create account",
+    "close": "Close"
+},
+    "actions": {
+        "browse": "Browse books",
+        "add": "Add a book",
+        "view_all": "View all books",
+        "view_book": "View in catalog",
+        "add_first": "Add the first book",
+        "admin": "Admin dashboard",
+        "school_list": "School list"
+    },
+    "remove_page": "Remove page {{number}}",
+"remove_file": "Remove file",
+"unauthorized": "You are not allowed to analyze this list.",
+"groq_not_configured": "The school-list analysis service is not configured.",
+
+
+    "admin": { "header": "Admin", "welcome": "Welcome, admin. You have full access." }
+}

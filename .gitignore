@@ -1,0 +1,60 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs
+/storage/app/public/posts
+/storage/app/firebase
+/database/database.sqlite
+/database/database.sqlite-journal
+/vendor
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.backup*
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+!resources/js/i18n/locales/**/auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+# Sensitive files
+*.pem
+*.key
+*service-account*.json
+*.encrypted
+*.zip
+
+# Dependencies
+**/node_modules/
+
+# Scraped bookstore datasets - excluded from public repository
+/antoine-scraper/antoine_books.csv
+/antoine-scraper/antoine_books.backup.csv
+
+# Original book catalog data
+/database/data/lebanese_books.csv
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.bak
+*.backup
+
+# Local runtime files
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/app/private/*
+/coverage/
+/test-results/
