@@ -26,7 +26,31 @@ The application uses **Laravel** for server-side logic and authorization, **Reac
 
 ## Screenshots
 
-Screenshots of the home page, book catalog, add-book flow, and My Books page will be added here. Only demo data and non-sensitive accounts should appear in screenshots.
+### Homepage
+
+Browse available books, search by title, author, or subject, and filter listings by category, price, and location.
+
+![Kitabak Homepage](docs/screenshots/homepage.png)
+
+### My Books — Listing Management
+
+Manage personal book listings, track available and sold books, search listings, and update their status using the Mark as Sold feature.
+
+![Kitabak My Books](docs/screenshots/my-books.png)
+
+### Add Book — AI-Assisted Recognition
+
+A guided five-step workflow for adding books. Users can upload front and back cover photos for AI-assisted identification, review the extracted information, or enter book details manually.
+
+![Kitabak Add Book](docs/screenshots/add-book.png)
+
+### AI Recognition Results
+
+Kitabak uses AI-assisted analysis of book cover photos to identify information such as the title, author, language, and ISBN.
+
+Users can review and correct the extracted information before publishing their book listing.
+
+![Kitabak AI Recognition](docs/screenshots/ai-recognition.png)
 
 ## Main features
 
