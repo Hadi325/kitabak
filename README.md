@@ -1,426 +1,201 @@
 <div align="center">
 
-# myBooks
+# Kitabak 📚
 
-### A bilingual platform for discovering, sharing, and managing educational books
+### A multilingual marketplace for giving books a second life in Lebanon
+
+**Discover books · List your own · Connect with readers**
 
 [![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=111827)](https://react.dev)
-[![Inertia.js](https://img.shields.io/badge/Inertia.js-2-9553E9?logo=inertia&logoColor=white)](https://inertiajs.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)
+[![Inertia.js](https://img.shields.io/badge/Inertia.js-2-9553E9)](https://inertiajs.com)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com)
 
-**English and Arabic · Role-based access · Responsive interface · Cloud ready**
+**English · Français · العربية**
 
 </div>
 
----
-
 ## Overview
 
-myBooks is a full-stack educational book platform built for students, families, and school communities. Users can publish books with cover images and inventory information, browse the shared catalog, and manage their own listings from a bilingual, responsive interface.
+**Kitabak** is a web application designed to help people in Lebanon discover, list, and exchange information about books available for sale. It brings school textbooks, university books, and novels into a shared catalog, with a focus on making it easier to reuse books rather than leave them unused.
 
-The application combines a Laravel backend with an Inertia-powered React frontend. This keeps routing, authorization, validation, and data access in Laravel while delivering a modern single-page experience in React.
+Users can browse available listings, add their own books, manage their listings, and mark books as sold. The interface supports English, French, and Arabic, including right-to-left layouts for Arabic.
 
-## Key features
+The application uses **Laravel** for server-side logic and authorization, **React** for the interface, and **Inertia.js** to connect them.
 
-### Book catalog and inventory
+## Screenshots
 
-- Create book listings with title, subject, grade, price, stock quantity, and multiple cover images.
-- Browse books contributed by all verified users.
-- Separate personal listings from books published by other users.
-- Edit and delete listings with server-side ownership checks.
-- Track total books, available copies, subjects, and personal inventory from the home dashboard.
-- Discover recently added books and popular subjects.
+Screenshots of the home page, book catalog, add-book flow, and My Books page will be added here. Only demo data and non-sensitive accounts should appear in screenshots.
 
-### Accounts and access control
+## Main features
 
-- Registration, login, logout, password reset, and profile management.
-- Email verification workflow with local log-based delivery support.
-- `admin` and `user` roles powered by Spatie Laravel Permission.
-- Verified-user middleware on protected application routes.
-- Admin tools for user roles, posts, reports, and platform statistics.
+### Book discovery and listings
 
-### Community module
+- Browse and search a shared book catalog.
+- Filter books and listings to find relevant results.
+- Create listings with book photos, price, and location information.
+- Manage personal listings from **My Books**.
+- Mark a listing as **Sold** so it is no longer shown among available books.
+- Browse books across **School**, **University**, and **Novel** categories.
 
-- Publish searchable posts with descriptions, locations, dates, tags, and images.
-- Upload up to ten images with labels and captions.
-- Generate optimized thumbnails with Intervention Image.
-- Like, comment on, and report community posts.
-- Moderate user reports through the admin area.
+### Assisted book entry
+
+- Add book details manually when needed.
+- Use AI-assisted analysis of book cover photos to help identify book information.
+- Support ISBN/barcode-based book lookup and identification workflows.
+
+> AI-generated information may be incomplete or incorrect and should be reviewed before saving.
+
+### Accounts and community
+
+- Registration, sign-in, password recovery, and profile management.
+- Email verification and role-based access control.
+- Administrator interfaces for managing users and moderating content.
+- Community posts and interactions.
 
 ### User experience
 
-- English and Arabic translations with automatic LTR/RTL direction.
-- Responsive layouts for desktop, tablet, and mobile.
-- Dynamic dashboard with inventory statistics and recent books.
-- Reusable React components and Tailwind CSS design primitives.
-- Inertia navigation without a separate public API for page rendering.
+- English, French, and Arabic translations.
+- Right-to-left interface support for Arabic.
+- Responsive layouts for mobile and desktop.
+- Light and dark theme styling.
+- Location selection to help buyers discover relevant listings.
+
+## My internship contributions
+
+Kitabak was developed as a **collaborative internship project**. This public repository showcases the application and the work I contributed to; it does not imply that I developed every part of the platform independently.
+
+My contributions included:
+
+1. **Book listings and My Books:** improved listing creation and personal listing management.
+2. **AI-assisted book recognition:** worked on extracting book details from cover photos and refining the add-book experience.
+3. **Book categories:** added or improved workflows for School, University, and Novel books.
+4. **Localization:** worked on English, French, and Arabic translations and interface behavior.
+5. **Authentication UI:** redesigned login and registration pages for a more consistent responsive experience.
+6. **Search and visual consistency:** improved search bars, filters, and dark-mode styling.
+7. **Listing location:** worked on location selection and presentation for book listings.
+8. **Listing availability:** implemented or improved the **Mark as Sold** workflow and available-listing behavior.
 
 ## Technology stack
 
-| Layer | Technology |
-|---|---|
-| Backend | PHP 8.2+, Laravel 11 |
+| Area | Technologies |
+| --- | --- |
+| Backend | PHP, Laravel 11 |
 | Frontend | React 18, Inertia.js 2 |
-| Styling | Tailwind CSS 3, Headless UI |
-| Database | MySQL 8 in development and production |
-| Authentication | Laravel Breeze |
+| Styling | Tailwind CSS 3 |
+| Database | MySQL |
+| Authentication | Laravel authentication and Firebase-related integration |
 | Authorization | Spatie Laravel Permission |
-| Image processing | Intervention Image Laravel |
 | Localization | i18next, react-i18next |
-| Asset pipeline | Vite 5 |
-| Testing | PHPUnit 10, in-memory SQLite |
-| Production | Laravel Cloud with managed MySQL |
+| Image handling | Intervention Image |
+| Tooling | Composer, npm, Vite |
+| Testing | PHPUnit |
 
-## Architecture
+## Project structure
 
 ```text
-Browser
-  │
-  │ Inertia requests
-  ▼
-Laravel routes and middleware
-  │
-  ├── Controllers and form requests
-  ├── Policies and role middleware
-  ├── Eloquent models
-  └── Services for image processing
-          │
-          ▼
-       MySQL
-
-Laravel renders Inertia page props
-  │
-  ▼
-React pages + Tailwind CSS + i18next
+app/                 Laravel controllers, models, services, and requests
+database/            Migrations, factories, and seeders
+resources/js/        React pages, components, and translations
+resources/css/       Application styles
+routes/              Web and API routes
+tests/               Unit and feature tests
+public/              Public static assets
 ```
 
-### Important directories
+## Run locally
 
-| Path | Responsibility |
-|---|---|
-| `app/Http/Controllers` | Request handling and page data |
-| `app/Http/Requests` | Validation and request authorization |
-| `app/Models` | Eloquent entities and relationships |
-| `app/Policies` | Ownership and administrative authorization |
-| `app/Services` | Post-image storage and thumbnail processing |
-| `database/migrations` | Database schema |
-| `database/seeders` | Roles, permissions, and development administrator |
-| `resources/js/Pages` | Inertia React pages |
-| `resources/js/Components` | Shared interface components |
-| `resources/js/i18n` | English and Arabic translations |
-| `routes/web.php` | Web application routes |
-| `tests` | Unit and feature tests |
+### Prerequisites
 
-## Requirements
+- PHP 8.2 or newer and Composer 2
+- Node.js 20 or newer and npm
+- MySQL 8 (or a compatible database)
+- Required PHP extensions, including `pdo_mysql`, `mbstring`, `fileinfo`, `openssl`, and `xml`
 
-Install the following before starting:
-
-- PHP `8.2` or newer; PHP `8.4` is recommended for this Laravel 11 project.
-- Composer `2.x`.
-- Node.js `20.x` or newer and npm.
-- MySQL `8.x` or MariaDB with an equivalent feature set.
-- PHP extensions: `bcmath`, `ctype`, `curl`, `fileinfo`, `gd`, `mbstring`, `openssl`, `pdo_mysql`, `pdo_sqlite`, `tokenizer`, and `xml`.
-
-Verify the main tools:
+### 1. Clone and install
 
 ```bash
-php --version
-composer --version
-node --version
-npm --version
-```
-
-> PHP 8.5 may display PDO deprecation notices with the current Laravel 11 dependency set. These notices do not prevent the application from running; PHP 8.4 provides a quieter development experience.
-
-## Local installation
-
-### 1. Clone the repository
-
-```bash
-git clone <repository-url> mybooks
-cd mybooks
-```
-
-The Laravel application is located at the repository root. Do not run commands from an `app/` subdirectory.
-
-### 2. Install dependencies
-
-```bash
+git clone https://github.com/Hadi325/kitabak.git
+cd kitabak
 composer install
 npm ci
 ```
 
-### 3. Create the environment file
+### 2. Configure the application
 
-PowerShell:
+Copy `.env.example` to `.env`:
+
+**Windows PowerShell**
 
 ```powershell
 Copy-Item .env.example .env
 ```
 
-macOS or Linux:
+**macOS / Linux**
 
 ```bash
 cp .env.example .env
 ```
 
-Generate the Laravel application key:
+Generate the application key:
 
 ```bash
 php artisan key:generate
 ```
 
-### 4. Create the local database
+Create a local MySQL database, then configure the `DB_*` settings in your own `.env` file. Keep all passwords, API keys, and service credentials out of Git.
 
-Create an empty MySQL database named `mybooks`, then confirm these values in `.env`:
-
-```dotenv
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=mybooks
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Use the correct username and password for your local MySQL installation.
-
-### 5. Initialize the application
+### 3. Prepare the database and storage
 
 ```bash
 php artisan migrate --seed
 php artisan storage:link
 ```
 
-`storage:link` is required for uploaded book covers and post images to be publicly accessible.
+### 4. Start the development servers
 
-### 6. Start development servers
-
-Run Laravel and Vite in separate terminals.
-
-Terminal 1:
+Run in separate terminals:
 
 ```bash
 php artisan serve
 ```
 
-Terminal 2:
-
 ```bash
 npm run dev
 ```
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
+Visit **http://127.0.0.1:8000**.
 
-To avoid a port conflict with another Laravel project:
+> Some optional integrations, including AI analysis, Firebase, messaging, and external services, require your own credentials and additional configuration. The public repository does not include production secrets or live user data.
 
-```bash
-php artisan serve --port=8001
-```
+## Tests and build
 
-Then set `APP_URL=http://127.0.0.1:8001` in `.env` and open [http://127.0.0.1:8001](http://127.0.0.1:8001).
-
-## Development account
-
-For security reasons, no default administrator account is created.
-
-After setting up the application, an administrator can be created manually in a secure development environment.
-
-Never commit real credentials or passwords to the repository.
-
-New registrations receive the `user` role.
-
-## Email verification in development
-
-Local configuration uses Laravel's `log` mail driver:
-
-```dotenv
-MAIL_MAILER=log
-```
-
-Emails are written to:
-
-```text
-storage/logs/laravel.log
-```
-
-When testing registration, find the newest verification link or six-digit code in that file. To send real email, configure an SMTP provider in `.env`; never commit credentials.
-
-## Useful commands
-
-```bash
-# Clear cached application state
-php artisan optimize:clear
-
-# Inspect application routes
-php artisan route:list --except-vendor
-
-# Apply pending migrations
-php artisan migrate
-
-# Rebuild a disposable local database and seed it
-php artisan migrate:fresh --seed
-
-# Format PHP files
-php vendor/bin/pint
-
-# Build production frontend assets
-npm run build
-```
-
-> `migrate:fresh` deletes every table in the configured database. Use it only with a disposable local database.
-
-## Testing
-
-Run the PHP test suite:
+After installing dependencies, run:
 
 ```bash
 php artisan test
-```
-
-Tests are configured in `phpunit.xml` to use an in-memory SQLite database. This isolates automated tests from each developer's local MySQL data.
-
-Requirements for tests:
-
-- The `pdo_sqlite` PHP extension must be enabled.
-- Tests must not rely on records in the developer's normal database.
-- Factories or seeders should create all data required by each test.
-
-## Team workflow
-
-Development and production configuration are separated without committing plaintext secrets. See [Environment management](docs/environments.md) for the shared encrypted development workflow and Laravel Cloud production setup.
-
-Create focused branches from the latest `main`:
-
-```bash
-git switch main
-git pull --ff-only
-git switch -c feature/short-description
-```
-
-Before opening a pull request:
-
-```bash
-php vendor/bin/pint
-php artisan test
 npm run build
 ```
 
-Commit both dependency lock files when their corresponding dependency definitions change:
+The test suite is configured to use SQLite in memory; ensure the `pdo_sqlite` PHP extension is enabled. Test results have not been independently verified for this public portfolio copy.
 
-- Commit `composer.lock` when `composer.json` changes.
-- Commit `package-lock.json` when `package.json` or installed npm dependency versions change.
-- Avoid unrelated lock-file changes in feature commits.
+## Security and responsible use
 
-Never commit `.env`, database credentials, application keys, SMTP passwords, uploaded user content, `vendor/`, or `node_modules/`.
+- Do not commit `.env` files, credentials, service-account keys, or user data.
+- Use test accounts and sample content for local demonstrations.
+- Do not assume a default administrator account exists.
+- Review generated AI data before publishing listings.
+- Configure and secure any external integrations before deployment.
 
-## Production deployment with Laravel Cloud
+## Project context
 
-The production environment is designed for Laravel Cloud with a managed MySQL resource.
-
-### Repository configuration
-
-- Connect the GitHub repository to the Laravel Cloud application.
-- Use the `main` branch for production only if that matches the team's release policy.
-- Set the application directory to the repository root. Do not use the historical `app` directory.
-
-### Build commands
-
-```bash
-composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
-npm ci --audit false
-npm run build
-```
-
-### Deploy command
-
-```bash
-php artisan migrate --force
-```
-
-Run production seeding only as an intentional administrative operation; do not automatically recreate development credentials on every deploy.
-
-### Production configuration
-
-Laravel Cloud injects database connection variables when the managed MySQL resource is attached. Confirm that the runtime uses `DB_CONNECTION=mysql` and keep `APP_DEBUG=false`.
-
-Required operational tasks:
-
-- Configure a production mail provider.
-- Use a persistent storage solution for user uploads.
-- Monitor application and access logs after each deployment.
-- Back up the managed database before high-risk schema changes.
-- Review all pending Laravel Cloud changes before deploying.
-
-## Troubleshooting
-
-### `Could not open input file: artisan`
-
-Run commands from the repository root:
-
-```bash
-cd mybooks
-php artisan --version
-```
-
-### Uploaded images are not visible
-
-Create the public storage link:
-
-```bash
-php artisan storage:link
-```
-
-Confirm that the web server can write to `storage/` and `bootstrap/cache/`.
-
-### Verification email does not arrive locally
-
-This is expected when `MAIL_MAILER=log`. Read `storage/logs/laravel.log` for the link or verification code.
-
-### `There is no role named user`
-
-Seed roles and permissions:
-
-```bash
-php artisan db:seed
-php artisan permission:cache-reset
-```
-
-### Laravel Cloud cannot find `composer.json`
-
-Confirm that the GitHub repository is connected and that the Laravel Cloud application directory is the repository root, not `app`.
-
-### PHP 8.5 PDO deprecation notices
-
-The server can continue running when these notices appear. Prefer PHP 8.4 for local development until the complete dependency stack is updated for PHP 8.5.
-
-## Security guidelines
-
-- Keep production secrets in Laravel Cloud or another approved secret manager.
-- Keep `APP_DEBUG=false` in production.
-- Validate and authorize all write operations on the server.
-- Do not expose environment variables in screenshots, logs, issues, or pull requests.
-- Rotate a credential immediately if it is accidentally disclosed.
-- Keep Composer and npm dependencies updated through reviewed pull requests.
-
-## Current development priorities
-
-- Complete the book detail and search/filter experience.
-- Improve image lifecycle management for book updates and deletions.
-- Expand automated coverage for book ownership and dashboard queries.
-- Consolidate legacy community features with the primary book experience.
-- Finalize production storage and mail delivery configuration.
-
-## Project status
-
-myBooks is under active development. Database migrations, deployment settings, and user-facing workflows may evolve as the team prepares the platform for production use.
+This repository is a **sanitized portfolio version** of a collaborative internship project. It is intended to demonstrate software architecture, product functionality, and my contributions. It is not presented as a ready-to-deploy production service, and the original private team repository is maintained separately.
 
 ---
 
 <div align="center">
 
-Built with Laravel, Inertia.js, React, and Tailwind CSS.
+**Built with Laravel, React, Inertia.js, and Tailwind CSS.**
 
 </div>
